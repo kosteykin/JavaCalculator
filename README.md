@@ -1,3 +1,77 @@
+EN:
+# Extended Calculator in Java
+
+## Project Description
+
+This is a simple graphical calculator written in Java using Swing. The calculator has two modes of operation, implemented through tabs:
+
+- **Basic Mode** - standard arithmetic operations: addition, subtraction, multiplication, division.
+- **Extended Mode** - additional mathematical functions: square root, exponentiation, factorial, reciprocal, modulus, trigonometric functions, logarithms, and exponential.
+
+The calculator supports repeated pressing of the "=" button to repeat the last operation, a backspace button (`Undo`), and a clear button (`Clear`).
+
+## Features
+
+- User-friendly interface with two tabs for switching between modes.
+- Error handling (division by zero, invalid input).
+- Support for repeated calculations with the "=" button.
+- `Undo` button to delete the last entered character.
+- Uses only standard Java libraries.
+
+## How to Use
+
+1. Run the program (e.g., from an IDE or by compiling with `javac` and running with `java`).
+
+2. At the top of the window is the display field - it shows entered numbers and results.
+
+3. Switch between tabs:
+   - **Basic** - for simple arithmetic operations.
+   - **Extended** - for additional functions.
+
+4. Entering numbers and operations:
+   - Press digits and the decimal point to enter numbers.
+   - Press an operator (`+`, `-`, `*`, `/` in basic mode or the corresponding buttons in extended mode).
+   - Enter the second number.
+   - Press "=" to calculate the result.
+
+5. Additional functions in extended mode:
+   - `sqrt` - square root.
+   - `x^2` - square of a number.
+   - `x^y` - exponentiation (after pressing, enter the exponent and press "=").
+   - `!` - factorial (for non-negative integers only).
+   - `1/x` - reciprocal.
+   - `abs` - absolute value.
+   - `sin`, `cos`, `tan` - trigonometric functions (argument in degrees).
+   - `log` - base-10 logarithm.
+   - `ln` - natural logarithm.
+   - `e^x` - exponential function.
+
+6. Control buttons:
+   - `Clear` - clear the input field and reset calculations.
+   - `Undo` - delete the last entered character.
+
+7. Pressing "=" repeatedly repeats the last calculation with the same operands.
+
+## Requirements
+
+- Java 8 or higher.
+- Java Runtime Environment (JRE) or an IDE with Java support.
+
+## Running from the Command Line
+
+1. Compile:
+
+```
+javac ExtendedCalculator.java
+```
+
+2. Run:
+
+```
+java ExtendedCalculator
+```
+
+RU:
 # Расширенный Калькулятор на Java
 
 ## Описание проекта
